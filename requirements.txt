@@ -1,0 +1,12 @@
+python-telegram-bot[job-queue]==22.5
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+httpx==0.28.1
+SQLAlchemy==2.0.43
+aiosqlite==0.21.0
+APScheduler==3.11.0
+python-dotenv==1.1.1
+cryptography==45.0.6
+rich==14.1.0
+pytest==8.4.1
+pytest-asyncio==1.1.0

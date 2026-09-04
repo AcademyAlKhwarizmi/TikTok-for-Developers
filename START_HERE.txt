@@ -1,0 +1,26 @@
+FlowTikTok - Ready Project
+=========================
+1) Edit .env and fill:
+   BOT_TOKEN=ONE Telegram bot token only
+   ADMIN_ID=your numeric Telegram ID
+   TOKEN_ENCRYPTION_KEY=generate with:
+   python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+
+2) Install:
+   pip install -r requirements.txt
+
+3) Run:
+   python bot.py
+
+4) Admin:
+   /admin
+
+5) Upload tutorial:
+   /admin -> 🎬 فيديو الشرح -> send the video
+
+6) Custom emoji:
+   /admin -> 🎨 الإيموجيات
+   /setemoji KEY EMOJI_ID
+
+7) TikTok OAuth:
+   Fill TIKTOK_CLIENT_KEY / SECRET / REDIRECT_URI after your HTTPS domain is ready.
