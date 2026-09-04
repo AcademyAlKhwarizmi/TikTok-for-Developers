@@ -1,0 +1,4 @@
+[
+  "tests/test_security.py::test_no_token_logging_import",
+  "tests/test_validators.py::test_hashtags"
+]
